@@ -7,9 +7,13 @@ class Father{
 }
 
 public class Son extends Father {
-//	void work() {
-//		System.out.println("I work at an IT company.");
-//	}
+	void work() {
+		System.out.println("I work at an IT company.");
+	}
+	// Without "(int a)", an error occurs.
+	void work(int a) {
+		System.out.println("I work at an IT company.");
+	}
 	public static void main(String[] args) {
 		Son s = new Son();
 		s.work();
