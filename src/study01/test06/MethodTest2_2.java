@@ -6,6 +6,9 @@ package study01.test06;
  * int num;
  * int getNum(){ ... }
  */
+//int num;
+//int num = 1;
+//System.out.println(num);
 
 public class MethodTest2_2 {
 	int num;
@@ -22,9 +25,9 @@ public class MethodTest2_2 {
 	}
 	
 	public static void main(String[] args) {
-		// Assign "0" in the line below.
-		MethodTest2 mt2 = new MethodTest2();
-		// Bring in "0" that was initialized in the line above.
+		// Execute MethodTest2_2 class
+		MethodTest2_2 mt2 = new MethodTest2_2();
+		// Execute getNum() inside of the MethodTest2_2 class
 		mt2.getNum();
 	}
 }

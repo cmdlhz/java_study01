@@ -17,7 +17,7 @@ public class MethodTest2_4 {
 	public static void main(String[] args) {
 		int num;
 		// generates memory for MethodTest2()
-		MethodTest2 mt2 = new MethodTest2();
+		MethodTest2_4 mt2 = new MethodTest2_4();
 		mt2.getNum();
 	}
 }

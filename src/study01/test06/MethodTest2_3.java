@@ -20,7 +20,7 @@ public class MethodTest2_3 {
 		/*
 		 * A computer doesn't read code before a class gets called below.
 		 */
-		MethodTest2 mt2 = new MethodTest2();
+		MethodTest2_3 mt2 = new MethodTest2_3();
 		mt2.getNum();
 	}
 }

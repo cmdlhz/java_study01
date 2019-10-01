@@ -5,7 +5,6 @@ public class MethodTest1_2{
 		String str = new String("123");
 		String str1 = "123";
 		String str2 = new String("123");
-		String str3 = str2;
 		
 		// compare memory locations
 		System.out.println(str == str1);
@@ -14,11 +13,13 @@ public class MethodTest1_2{
 		
 		// compare values
 		System.out.println(str.contentEquals(str1));
+		System.out.println(str1.contentEquals(str2));
 		
 		/*
 		 * false
 			false
 			false
+			true
 			true
 		 */
 	}
