@@ -11,13 +11,14 @@ public class MethodTest1_2{
 		System.out.println(str == str1);
 		System.out.println(str1 == str2);
 		System.out.println(str1 == str2);
-		System.out.println(str2 == str3);
+		System.out.println(str == str2);
 		
 		// compare values
 		System.out.println(str.contentEquals(str1));
 		
 		/*
 		 * false
+			false
 			false
 			false
 			true
