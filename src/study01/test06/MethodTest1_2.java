@@ -10,7 +10,6 @@ public class MethodTest1_2{
 		// compare memory locations
 		System.out.println(str == str1);
 		System.out.println(str1 == str2);
-		System.out.println(str1 == str2);
 		System.out.println(str == str2);
 		
 		// compare values
@@ -18,7 +17,6 @@ public class MethodTest1_2{
 		
 		/*
 		 * false
-			false
 			false
 			false
 			true
