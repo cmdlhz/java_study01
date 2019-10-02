@@ -9,7 +9,8 @@ public class MethodTest2_3 {
 	int getNum() {
 		// num #2
 		int num;
-		// ERROR : refers to num #2 (has not been initialized)
+		// ************* ERROR ***************
+		// refers to num #2 (has not been initialized)
 		/*
 		 * Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
 			The local variable num may not have been initialized

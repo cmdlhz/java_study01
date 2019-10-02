@@ -8,7 +8,7 @@ class Test{
 }
 
 public class PublicTest {
-	public int num;
+	int num = 2;
 	
 	public static void main(String[] args) {
 		PublicTest pt = new PublicTest();

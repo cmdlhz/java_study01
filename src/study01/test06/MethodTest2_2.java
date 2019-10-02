@@ -20,7 +20,7 @@ public class MethodTest2_2 {
  
 	int getNum() {
 		System.out.println(num);
-		// A method can't use inside of another method.
+		// A method can't be used inside of another method.
 		return 1;
 	}
 	

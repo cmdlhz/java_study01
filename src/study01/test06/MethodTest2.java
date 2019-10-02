@@ -26,3 +26,10 @@ public class MethodTest2 {
 		mt2.getNum();
 	}
 }
+
+/*
+	0 in static method
+	0
+	3
+	0
+ */
