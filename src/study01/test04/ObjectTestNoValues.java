@@ -14,7 +14,7 @@ public class ObjectTestNoValues {
 		// "0"
 		System.out.println(ot.name); 
 		// "null"
-		// Runtime Exception
-		System.out.println(ot.r.nextInt());
+		// ********* Runtime Exception *********
+//		System.out.println(ot.r.nextInt());
 	}   
 }

@@ -19,6 +19,7 @@ public class PublicTest {
 		
 		// can't use "private" data outside of the scope.
 		Test t = new Test();
-		System.out.println(t.num);
+		// ************* ERROR *************
+//		System.out.println(t.num);
 	}
 }

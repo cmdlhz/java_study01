@@ -10,7 +10,11 @@ public class MethodTest2_3 {
 		// num #2
 		int num;
 		// ERROR : refers to num #2 (has not been initialized)
-		System.out.println(num);
+		/*
+		 * Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+			The local variable num may not have been initialized
+		 */
+//		System.out.println(num);
 		return 1;
 	}
 	

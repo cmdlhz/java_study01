@@ -7,8 +7,8 @@ public class ObjectTest1_4 {
 	String str = " ";
 	
 	public static void main(String[] args) {
-		ObjectTest ot = new ObjectTest();
-		ObjectTest ot2 = new ObjectTest();
+		ObjectTest1_4 ot = new ObjectTest1_4();
+		ObjectTest1_4 ot2 = new ObjectTest1_4();
 		
 		// true true false
 		/*
@@ -17,8 +17,11 @@ public class ObjectTest1_4 {
 		System.out.println(ot.str == ot2.str);		
 		ot2.str = " ";
 		System.out.println(ot.str == ot2.str);
+		
 		// We made it.
 		ot2.str = new String(" ");
+		System.out.println(ot.str == ot2.str);
+		ot.str = new String(" ");
 		System.out.println(ot.str == ot2.str);
 	}
 }
