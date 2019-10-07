@@ -13,7 +13,7 @@ public class Son extends Mother{
 		/*
 		 *  "Overriding"
 		 */
-		System.out.println("I'll cook Ramen for lunch.");
+//		System.out.println("I'll cook Ramen for lunch.");
 	}
 	
 	public static void main(String[] args) {
