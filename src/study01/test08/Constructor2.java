@@ -17,13 +17,13 @@ public class Constructor2 extends Father2 {
 		System.out.println("I'm a constructor in Class Constructor!");
 	}
 	
-	Constructor2(int a){
-		System.out.println(b);
-		System.out.println(a);
-		System.out.println("I'm a constructor in Class Constructor!");
+	Constructor2(int c){
+		System.out.println("b : " + b);
+		System.out.println("a : " + a);
+		System.out.println("I'm a constructor in Class Constructor with a number!");
 	}
 	
 	public static void main(String[] args) {
-		Constructor c = new Constructor();
+		Constructor2 c = new Constructor2();
 	}
 }

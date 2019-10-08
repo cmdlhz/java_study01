@@ -1,9 +1,9 @@
 package study01.test08;
 
 class Father{
-	//	STEP 3
+	//	STEP ?
 	int a;
-	// STEP 4
+	// STEP ?
 	Father(){
 		System.out.println("I'm a constructor in Father Constructor!");
 	}

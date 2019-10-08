@@ -11,12 +11,12 @@ public class Bank {
 		this.money = money;
 		inputMoney();
 	}
-	
-	// When does this part get called?!
+	 
 	/*
-	 * Without the following method, the memory location is displayed.
+	 * Without @Override, the memory location is displayed.
 	 * study01.test08.Bank@15db9742
 	 */
+	
 	@Override
 	public String toString() {
 		return "The total : " + this.totalMoney;
