@@ -29,3 +29,9 @@ public class Inherit2 extends Atom2{
 
 // Atom() directs "test09".
 //
+
+/*
+ * This works in the same package with the other one AND in inherited class in another package.
+It can be used ANYWHERE!
+study01.test09.Inherit2@15db9742
+ */

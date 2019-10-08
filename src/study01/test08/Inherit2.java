@@ -9,3 +9,10 @@ public class Inherit2 extends Atom2{
 		i2.publicTest2();
 	}
 }
+
+/*
+ * This works only in the same package.
+This works in the same package with the other one AND in inherited class in another package.
+It can be used ANYWHERE!
+
+ */

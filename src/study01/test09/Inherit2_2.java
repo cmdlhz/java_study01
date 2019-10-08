@@ -21,3 +21,8 @@ public class Inherit2_2 extends Atom2 {
 		System.out.println(obj);
 	}
 }
+
+/*
+ * study01.test09.Inherit2_2@15db9742
+study01.test09.Inherit2_2@6d06d69c
+ */
