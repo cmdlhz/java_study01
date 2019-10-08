@@ -33,7 +33,8 @@ public class StringArray3 {
 		// When we print it, a value is printed. (instead of a memory location)
 		ArrayList<String> strList = new ArrayList<String>();
 		strList.add("1");
-		strList.add("2");
+		strList.add("3");
+		// Index 1
 		strList.remove(1);
 		System.out.println(strList); // 1
 	}
