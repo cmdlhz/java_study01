@@ -19,6 +19,8 @@ public class SortingDoubleList {
 		
 		for(int i=0; i<dblList.size(); i++) {
 			for(int j=i+1; j<dblList.size(); j++) {
+				// ">" ascendng (작은 수 부터)
+				// "<" descending (큰 수 부터)
 				if(dblList.get(i) > dblList.get(j)) {
 					double temp = dblList.get(i);
 					dblList.set(i,  dblList.get(j));

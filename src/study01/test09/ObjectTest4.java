@@ -13,14 +13,14 @@ public class ObjectTest4 {
 		ot4 = new ObjectTest4();
 		System.out.println(ot4.num1);
 		
-		System.out.println(ObjectTest4.num2);
+		System.out.println(num2);
 		
 		// Just changing the value of the object.
-		ot4.num2 = 10;
+		num2 = 10;
 		
 		// RESET!!!
 		ot4 = new ObjectTest4();
-		System.out.println(ot4.num2);
+		System.out.println(num2);
 		
 		// Must initialize a variable!
 		// The following doesn't work!
