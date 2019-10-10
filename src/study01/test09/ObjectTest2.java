@@ -22,7 +22,7 @@ public class ObjectTest2 {
 		System.out.println("num2 (updating the value) : " + ObjectTest2.num2);
 		ObjectTest2 ot3 = new ObjectTest2();
 		System.out.println("num1 (new object) : " +ot3.num1);
-		System.out.println("num2 (new object) : " +ot3.num2);
+		System.out.println("num2 (new object) : " + num2);
 
 		// Need to indicate where it's located. (Because it's outside of the current class)
 		System.out.println("num2 (Different static int) : " + ObjectTest3.num2);
