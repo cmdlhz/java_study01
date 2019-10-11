@@ -26,17 +26,17 @@ public class StringArray3 {
 		strs = new String[2];
 		strs[1] = "2";
 		strs = new String[1];
-		arrayPrintIn(strs); // null
+		arrayPrintIn(strs); // [null]
 
 		// After Java 1.8, "new ArrayList<>" is used.
 		// <int> doesn't work.
 		// When we print it, a value is printed. (instead of a memory location)
 		ArrayList<String> strList = new ArrayList<String>();
 		strList.add("1");
-		strList.add("3");
+//		strList.add("3");
 		// Index 1
-		strList.remove(1);
-		System.out.println(strList); // 1
+		strList.remove(0);
+		System.out.println(strList); // []
 	}
 }
 
