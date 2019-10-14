@@ -41,6 +41,9 @@ public class Test2 extends Father {
  */
 
 
+
+
+
 /*
  * Interface : 행동 개념
  * Class : 상속
