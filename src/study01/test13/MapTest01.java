@@ -17,10 +17,11 @@ public class MapTest01 {
 	
 	// How ".put" works
 	public void put(String key, String value) {
-		// 방번호가 0부터 시작했으므로 사이즈는 +1을 해줘야 하지만
+		// value를 추가하기 위해서 공간부터 늘려줘야 함
 		this.keys = new String[this.keys.length+1];
 		this.values = new String[this.values.length+1];
 		
+		// Insert the new value to the last index
 		this.keys[this.keys.length-1] = key;
 		this.values[this.values.length-1] = value;
 	}
@@ -28,16 +29,18 @@ public class MapTest01 {
 	public String toString() {
 		String rStr = "";
 		for(int i=0; i<this.keys.length; i++) {
-			rStr += "{" + this.keys[i] + "=" + this.values[i] + ",";
+			rStr += "{" + this.keys[i] + "=" + this.values[i] + "}, ";
 		}
 		rStr = rStr.substring(0, rStr.length()-1);
-		rStr += "}";
+//		rStr += "}";
 		return rStr;
 	}
 	
 	public static void main(String[] args) {
 		MapTest01 mt01 = new MapTest01();
 		mt01.put("Age","29");
+		mt01.put("Age","33");
+		mt01.put("Age","25");
 		System.out.println(mt01);
 		
 		HashMap<String, String> map01 = new HashMap<String, String>();
