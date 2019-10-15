@@ -1,6 +1,6 @@
 package review01;
 
-class Static02 {
+class Static03 {
 	static int num2 = 222;
 }
 
@@ -21,7 +21,7 @@ public class Static01 {
 		System.out.println("num1 (new object) : " + st2.num1);
 		System.out.println("num1 (new object) : " + num2);
 		
-		System.out.println("num2 (different static int) : " + Static02.num2);
+		System.out.println("num2 (different static int) : " + Static03.num2);
 		
 		int a = 3;
 		System.out.println(a);
