@@ -25,6 +25,8 @@ public class DBCon {
 	
 	private static Connection con;
 	
+	// getCon()을 통해서만 접근
+	// 이걸 통해서만 접근할 예정
 	public static Connection getCon() {
 		if(con == null) {
 			try {
@@ -35,8 +37,8 @@ public class DBCon {
 		}
 		return con;
 	}
-	
-	public static void main(String[] args) {
-		Connection con = getCon();
-	}
+//	
+//	public static void main(String[] args) {
+//		Connection con = getCon();
+//	}
 }
