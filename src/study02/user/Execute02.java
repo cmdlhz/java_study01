@@ -67,7 +67,7 @@ public class Execute02 {
 	}
 	
 	void select() {
-		System.out.println("Please enter alphabet(s) that ID(s) start with that you want to see: ");
+		System.out.println("Please enter alphabet(s) that ID(s) start with : ");
 		String id = scan.nextLine();
 		String sql = "Select * from user_info where id like '" + id + "%'";
 		
