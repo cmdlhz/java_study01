@@ -3,6 +3,7 @@ package study02.test02;
 public class Null {
 	static String a;
 	int num;
+	private static int b;
 	
 	public static void main(String[] args) {
 		System.out.println(Null.a);
@@ -15,6 +16,9 @@ public class Null {
 		int num2;
 		// 여기서는 아님. 바라보는 게 아무것도 없어서 찍어줄게 없음
 //		System.out.println(num2);
+		
+		b += 3;
+		System.out.println("b : " + b);
 	}
 }
 
