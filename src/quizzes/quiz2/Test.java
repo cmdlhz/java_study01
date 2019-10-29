@@ -1,4 +1,4 @@
-package miniTest.miniTest02;
+package quizzes.quiz2;
 
 import java.util.HashMap;
 import java.util.Map;

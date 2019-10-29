@@ -1,4 +1,4 @@
-package miniTest.miniTest02;
+package quizzes.quiz2;
 
 import java.util.ArrayList;
 import java.util.List;
